@@ -1,0 +1,16 @@
+{
+  "memory-regions" : [
+    {
+      "start": "0x0",
+      "length": "0x1000",
+      "permissions": "rw"
+    }
+  ],
+  "load-sections" : [
+    {
+      "file": "../test-program/kernel.bin",
+      "address": "0x0",
+      "max-size": "0x1000"
+    }
+  ]
+}
